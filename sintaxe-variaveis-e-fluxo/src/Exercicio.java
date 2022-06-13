@@ -10,7 +10,7 @@ public class Exercicio {
 	            double salario = 3800.0;
 	        }
 
-	        System.out.println(salario);
+	        System.out.println("salario");
 	    }
 	}
-}
+
