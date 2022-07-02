@@ -8,9 +8,11 @@ public class testeFuncionario {
 		nico.setCpf("222222222-22");
 		nico.setSalario(2590.80);
 		
-		System.out.println(nico.getbonificacao());
+		//System.out.println(nico.getbonificacao());
 		System.out.println(nico.getNome());
-				
+		
+		
+		//nico.salario =  300.0;
 		
 	}
 
