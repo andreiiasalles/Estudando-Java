@@ -1,21 +1,20 @@
+public abstract class Funcionario {
+	
+    private String name;
+    private String cpf;
+    private double salario;
 
-public class Funcionario {
-	private String nome;
-	private String cpf;
-	private double salario;
-	
-	
-	public double getBonificacao() {
-            return this.salario * 0.05;
-        }
-	
-
-	public String getNome() {
-		return nome;
+    //metodo sem corpo, nao ha implementacao
+    
+    public abstract double getBonificacao();
+    
+    public String getName() {
+            return name;
+    }
+    public void setName(String name) {
+		this.name = name;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    
 	public String getCpf() {
 		return cpf;
 	}
@@ -27,8 +26,6 @@ public class Funcionario {
 	}
 	public void setSalario(double salario) {
 		this.salario = salario;
-		
-		
 	}
 	
 	
