@@ -12,7 +12,7 @@ public class TesteContas {
 		ContaCorrente cc = new ContaCorrente(1111, 1111);
 		cc.deposita(100.0);
 		
-		ContaPoupança cp = new ContaPoupança(2222, 2222);
+		ContaPoupanca cp = new ContaPoupanca(2222, 2222);
 		cp.deposita(200.0);
 	
 		cc.transfere(10.0, cp);
